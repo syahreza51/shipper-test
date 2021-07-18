@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/Users/Syahreza/shipper-fe-dev/src/__test__/redux/ducks/general.test.ts">
+    <testCase name="Action: creates action to set general visible sidebar" duration="3"/>
+    <testCase name="Reducer: handles action set general visible sidebar" duration="2"/>
+  </file>
+  <file path="/Users/Syahreza/shipper-fe-dev/src/__test__/redux/ducks/user.test.ts">
+    <testCase name="Action: creates action to fetch user" duration="2"/>
+    <testCase name="Action: creates action to fetch user success" duration="0"/>
+    <testCase name="Action: creates action to fetch user failed" duration="1"/>
+    <testCase name="Reducer: handles action set general visible sidebar" duration="1"/>
+    <testCase name="Reducer: handles action set general visible sidebar success" duration="1"/>
+    <testCase name="Reducer: handles action set general visible sidebar failed" duration="0"/>
+  </file>
+  <file path="/Users/Syahreza/shipper-fe-dev/src/__test__/components/Notif.test.tsx">
+    <testCase name="alert render data correctly" duration="27"/>
+  </file>
+  <file path="/Users/Syahreza/shipper-fe-dev/src/__test__/components/Button.test.tsx">
+    <testCase name="button render data correctly" duration="32"/>
+  </file>
+  <file path="/Users/Syahreza/shipper-fe-dev/src/__test__/components/PageHeader.test.tsx">
+    <testCase name="alert render data correctly" duration="45"/>
+  </file>
+  <file path="/Users/Syahreza/shipper-fe-dev/src/__test__/utils/checkData.test.ts">
+    <testCase name="isJsonString function data correctly" duration="1"/>
+    <testCase name="isJsonString function data incorrectly" duration="0"/>
+  </file>
+  <file path="/Users/Syahreza/shipper-fe-dev/src/__test__/redux/epics/user.test.ts">
+    <testCase name="Observable: userFetchAllEpics dispatches the correct action when fetch user success" duration="4"/>
+    <testCase name="Observable: userFetchAllEpics dispatches the correct action when fetch user success (from localStorage)" duration="1"/>
+    <testCase name="Observable: userFetchAllEpics dispatches the correct action when fetch user failed" duration="1"/>
+  </file>
+  <file path="/Users/Syahreza/shipper-fe-dev/src/__test__/components/TextField.test.tsx">
+    <testCase name="textfield render data correctly" duration="29"/>
+  </file>
+</testExecutions>
